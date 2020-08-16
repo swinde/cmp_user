@@ -10,7 +10,7 @@
  */
 // Aktuelle Versionen:
 
-$sMetadataVersion = '1.2';
+$sMetadataVersion = '2.0';
 $aModule = [
     'id'            => 'swinde/cmp_user',
     'title'         => 'Preise nur fuer angemeldete User',
@@ -25,56 +25,52 @@ $aModule = [
     'blocks'        => [
         [
             //Galerie & Galerie 2 spaltig Preis ausblenden
-            'themes'    => 'roxive',
             'template' => 'widget/product/listitem_infogrid.tpl',
             'block'    => 'widget_product_listitem_infogrid_price',
-            'file'     => '/views/blocks/roxive/cmp_user_listitem_infogrid_price.tpl',
+            'file'     => '/views/blocks/cmp_user_listitem_infogrid_price.tpl',
         ],
         [
             //Galerie & Galerie 2 spaltig Warenkorbbutton ausblenden
-            'themes'    => 'roxive',
             'template' => 'widget/product/listitem_infogrid.tpl',
             'block'    => 'widget_product_listitem_infogrid_tobasket',
-            'file'     => '/views/blocks/roxive/cmp_user_listitem_infogrid_tobasket.tpl',
+            'file'     => '/views/blocks/cmp_user_listitem_infogrid_tobasket.tpl',
         ],
         [
             //List Line Preis ausblenden
-            'themes'    => 'roxive',
             'template' => 'widget/product/listitem_line.tpl',
             'block'    => 'widget_product_listitem_line_price_value',
-            'file'     => '/views/blocks/roxive/cmp_user_listitem_line.tpl',
+            'file'     => '/views/blocks/cmp_user_listitem_line.tpl',
         ],
         [
             //listitem_line (Liste) Warenkorb Button ausblenden
-            'themes'    => 'roxive',
             'template'  => 'widget/product/listitem_line.tpl',
             'block'     => 'widget_product_listitem_line_tobasket',
-            'file'      => '/views/blocks/roxive/cmp_user_listitem_line_tobasket.tpl'
+            'file'      => '/views/blocks/cmp_user_listitem_line_tobasket.tpl'
         ],
         [
             //Product Details
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_price',
-            'file'      => '/views/blocks/roxive/cmp_user_productmain.tpl'
+            'file'      => '/views/blocks/cmp_user_productmain.tpl'
         ],
         [
             //Details  Warenkorb Button ausblenden
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_tobasket',
-            'file'      => '/views/blocks/roxive/cmp_user_productmain_tobasket.tpl'
+            'file'      => '/views/blocks/cmp_user_productmain_tobasket.tpl'
         ],
         [
             //Details  Warenkorb UVP Preis ausblenden
             'themes'    => 'roxive',
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_tprice',
-            'file'      => '/views/blocks/roxive/cmp_user_productmain_tprice.tpl'
+            'file'      => '/views/blocks/cmp_user_productmain_tprice.tpl'
         ],
         [
             'themes'    => 'roxive',
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_priceperunit',
-            'file'      => '/views/blocks/roxive/cmp_user_productmain_priceperunit.tpl'
+            'file'      => '/views/blocks/cmp_user_productmain_priceperunit.tpl'
         ],
     ]
 ];
