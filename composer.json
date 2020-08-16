@@ -1,0 +1,22 @@
+{
+  "name": "swinde/cmp_user",
+  "description": "",
+  "type": "oxideshop-module",
+  "minimum-stability": "dev",
+  "keywords": ["oxid","modules"],
+  "homepage": "https://github.com/swinde/cmp_user",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "swinde/cmp_user"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Swinde\\SwCmpUser\\": "../../../source/modules/swinde/cmp_user"
+    }
+  }
+}
