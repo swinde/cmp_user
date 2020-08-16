@@ -1,6 +1,6 @@
 {
   "name": "swinde/cmp_user",
-  "description": "",
+  "description": "Es werden nur Preise für eine Benutzergruppe angezeigt.",
   "type": "oxideshop-module",
   "minimum-stability": "dev",
   "keywords": ["oxid","modules"],
@@ -11,6 +11,9 @@
   ],
   "extra": {
     "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
       "target-directory": "swinde/cmp_user"
     }
   },
