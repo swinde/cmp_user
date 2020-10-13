@@ -10,7 +10,7 @@
  */
 // Aktuelle Versionen:
 
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 $aModule = [
     'id'            => 'swinde/cmp_user',
     'title'         => 'Preise nur fuer angemeldete User',
