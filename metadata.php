@@ -61,13 +61,13 @@ $aModule = [
         ],
         [
             //Details  Warenkorb UVP Preis ausblenden
-            'themes'    => 'roxive',
+            'theme'    => 'roxive',
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_tprice',
             'file'      => '/views/blocks/cmp_user_productmain_tprice.tpl'
         ],
         [
-            'themes'    => 'roxive',
+            'theme'    => 'roxive',
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_priceperunit',
             'file'      => '/views/blocks/cmp_user_productmain_priceperunit.tpl'
