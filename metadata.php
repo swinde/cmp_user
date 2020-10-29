@@ -13,13 +13,13 @@
 $sMetadataVersion = '2.1';
 $aModule = [
     'id'            => 'swinde/cmp_user',
-    'title'         => 'Preise nur fuer angemeldete User',
+    'title'         => '.BEES - Preise nur fuer angemeldete User',
     'description'   => 'Preise nur fuer User, Preise ausblenden fuer Gaeste',
     'version'       => '1.1',
     'thumbnail'     => '',
     'author'        => 'Steffen Winde',
     'email'         => 'inserv@winde-ganzig.de',
-    'url'           => 'http://winde-ganzig.de',
+    'url'           => 'https://winde-ganzig.de',
     'extend'        => [],
     'controllers'   => [],
     'blocks'        => [
