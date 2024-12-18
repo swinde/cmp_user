@@ -24,6 +24,6 @@
     [{/if}]
      [{else}]
     <div class="lead text-nowrap list-price">
-        <p>F&uuml;r Preise, bitte anmelden!</p>
+        <p>[{oxmultilang ident="CMP_USER_TEXT"}]</p>
     </div>
     [{/if }]
