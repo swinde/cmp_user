@@ -75,7 +75,7 @@ $aModule = [
 		[
 			//Galerie & Galerie 1 spaltig Preis ausblenden
 			'template' => 'widget/product/listitem_grid.tpl',
-			'block'    => 'widget_product_listitem_infogrid_price',
+			'block'    => 'widget_product_listitem_grid_price',
 			'file'     => '/views/blocks/cmp_user_listitem_grid_price.tpl',
 		],
     ]
