@@ -12,7 +12,7 @@
 
 $sMetadataVersion = '2.1';
 $aModule = [
-    'id'            => 'swinde/cmp_user',
+    'id'            => 'cmp_user',
     'title'         => 'BEES - Preise nur für angemeldete User',
     'description'   => 'Preise nur für User, Preise ausblenden fuer Gaeste',
     'version'       => '1.1.2',

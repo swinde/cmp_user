@@ -12,6 +12,7 @@
   "extra": {
     "oxideshop": {
       "blacklist-filter": [
+        "composer.json",
         "documentation/**/*.*"
       ],
       "target-directory": "swinde/cmp_user"
