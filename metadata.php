@@ -36,13 +36,13 @@ $aModule = [
             'file'     => '/views/blocks/cmp_user_listitem_grid_tobasket-o3.tpl',
         ],
         [
-            //Galerie & Galerie 2 spaltig Preis ausblenden
+            'theme' => 'wave',
             'template' => 'widget/product/listitem_infogrid.tpl',
             'block'    => 'widget_product_listitem_infogrid_price',
             'file'     => '/views/blocks/cmp_user_listitem_infogrid_price.tpl',
         ],
         [
-            //Galerie & Galerie 2 spaltig Warenkorbbutton ausblenden
+            'theme' => 'wave',
             'template' => 'widget/product/listitem_infogrid.tpl',
             'block'    => 'widget_product_listitem_infogrid_tobasket',
             'file'     => '/views/blocks/cmp_user_listitem_infogrid_tobasket.tpl',
