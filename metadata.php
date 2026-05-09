@@ -24,16 +24,14 @@ $aModule = [
     'controllers'   => [],
     'blocks'        => [
         [
-            //Galerie & Galerie 2 spaltig Preis ausblenden
             'theme' => 'o3-theme',
-            'template' => 'widget/product/listitem_infogrid.tpl',
+            'template' => 'widget/product/listitem_grid.tpl',
             'block'    => 'widget_product_listitem_infogrid_price',
             'file'     => '/views/blocks/cmp_user_listitem_grid_price-o3.tpl',
         ],
         [
-            //Galerie & Galerie 2 spaltig Warenkorbbutton ausblenden
             'theme' => 'o3-theme',
-            'template' => 'widget/product/listitem_infogrid.tpl',
+            'template' => 'widget/product/listitem_grid.tpl',
             'block'    => 'widget_product_listitem_infogrid_gridpicture',
             'file'     => '/views/blocks/cmp_user_listitem_grid_tobasket-o3.tpl',
         ],
