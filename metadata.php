@@ -26,7 +26,7 @@ $aModule = [
         [
             'theme' => 'o3-theme',
             'template' => 'widget/product/listitem_grid.tpl',
-            'block'    => 'widget_product_listitem_infogrid_price',
+            'block'    => 'widget_product_listitem_grid_price',
             'file'     => '/views/blocks/cmp_user_listitem_grid_price-o3.tpl',
         ],
         [
@@ -77,12 +77,6 @@ $aModule = [
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_tprice',
             'file'      => '/views/blocks/cmp_user_productmain_tprice.tpl'
-        ],
-        [
-            'theme'    => 'roxive',
-            'template'  => 'page/details/inc/productmain.tpl',
-            'block'     => 'details_productmain_priceperunit',
-            'file'      => '/views/blocks/cmp_user_productmain_priceperunit.tpl'
         ],
 		[
 			//Galerie & Galerie 1 spaltig Preis ausblenden

@@ -1,8 +1,5 @@
 {
   "name": "swinde/cmp_user",
-  "require": {
-    "vendor/package": "^1.0"
-  },
   "description": "Es werden nur Preise für eine Benutzergruppe angezeigt.",
   "type": "oxideshop-module",
   "minimum-stability": "dev",
