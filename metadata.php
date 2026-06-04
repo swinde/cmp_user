@@ -36,30 +36,6 @@ $aModule = [
             'file'     => '/views/blocks/cmp_user_listitem_grid_tobasket-o3.tpl',
         ],
         [
-            'theme' => 'wave',
-            'template' => 'widget/product/listitem_infogrid.tpl',
-            'block'    => 'widget_product_listitem_infogrid_price',
-            'file'     => '/views/blocks/cmp_user_listitem_infogrid_price.tpl',
-        ],
-        [
-            'theme' => 'wave',
-            'template' => 'widget/product/listitem_infogrid.tpl',
-            'block'    => 'widget_product_listitem_infogrid_tobasket',
-            'file'     => '/views/blocks/cmp_user_listitem_infogrid_tobasket.tpl',
-        ],
-        [
-            //List Line Preis ausblenden
-            'template' => 'widget/product/listitem_line.tpl',
-            'block'    => 'widget_product_listitem_line_price_value',
-            'file'     => '/views/blocks/cmp_user_listitem_line.tpl',
-        ],
-        [
-            //listitem_line (Liste) Warenkorb Button ausblenden
-            'template'  => 'widget/product/listitem_line.tpl',
-            'block'     => 'widget_product_listitem_line_tobasket',
-            'file'      => '/views/blocks/cmp_user_listitem_line_tobasket.tpl'
-        ],
-        [
             //Product Details
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_price',
