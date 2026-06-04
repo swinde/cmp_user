@@ -24,13 +24,11 @@ $aModule = [
     'controllers'   => [],
     'blocks'        => [
         [
-            'theme' => 'o3-theme',
             'template' => 'widget/product/listitem_grid.tpl',
             'block'    => 'widget_product_listitem_grid_price',
             'file'     => '/views/blocks/cmp_user_listitem_grid_price-o3.tpl',
         ],
         [
-            'theme' => 'o3-theme',
             'template' => 'widget/product/listitem_grid.tpl',
             'block'    => 'widget_product_listitem_infogrid_gridpicture',
             'file'     => '/views/blocks/cmp_user_listitem_grid_tobasket-o3.tpl',
@@ -46,25 +44,5 @@ $aModule = [
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_tobasket',
             'file'      => '/views/blocks/cmp_user_productmain_tobasket.tpl'
-        ],
-        [
-            //Details  Warenkorb UVP Preis ausblenden
-            'theme'    => 'roxive',
-            'template'  => 'page/details/inc/productmain.tpl',
-            'block'     => 'details_productmain_tprice',
-            'file'      => '/views/blocks/cmp_user_productmain_tprice.tpl'
-        ],
-		[
-			//Galerie & Galerie 1 spaltig Preis ausblenden
-			'template' => 'widget/product/listitem_grid.tpl',
-			'block'    => 'widget_product_listitem_grid_price',
-			'file'     => '/views/blocks/cmp_user_listitem_grid_price.tpl',
-		],
-		[
-			//Galerie & Galerie 1 spaltig Warenkorbbutton ausblenden
-			'template' => 'widget/product/listitem_grid.tpl',
-			'block'    => 'widget_product_listitem_grid_tobasket',
-			'file'     => '/views/blocks/cmp_user_listitem_grid_tobasket.tpl',
-		],
-    ]
+        ]    ]
 ];
