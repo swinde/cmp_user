@@ -44,5 +44,5 @@ $aModule = [
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_tobasket',
             'file'      => '/views/blocks/cmp_user_productmain_tobasket.tpl'
-        ]    ]
+        ]
 ];
