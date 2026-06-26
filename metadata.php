@@ -15,7 +15,7 @@ $aModule = [
     'id'            => 'cmp_user',
     'title'         => 'BEES - Preise nur für angemeldete User',
     'description'   => 'Preise nur für User, Preise ausblenden fuer Gaeste',
-    'version'       => '1.0.4',
+    'version'       => '1.0.5',
     'thumbnail'     => '',
     'author'        => 'Steffen Winde',
     'email'         => 'inserv@winde-ganzig.de',
@@ -45,5 +45,5 @@ $aModule = [
             'block'     => 'details_productmain_tobasket',
             'file'      => '/views/blocks/cmp_user_productmain_tobasket.tpl'
         ]
-    ]
+    ],
 ];
