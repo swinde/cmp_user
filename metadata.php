@@ -37,7 +37,7 @@ $aModule = [
             //Product Details
             'template'  => 'page/details/inc/productmain.tpl',
             'block'     => 'details_productmain_price',
-            'file'      => '/views/blocks/cmp_user_productmain.tpl'
+            'file'      => '/views/blocks/cmp_user_details_productmain_price.tpl'
         ],
         [
             //Details  Warenkorb Button ausblenden
